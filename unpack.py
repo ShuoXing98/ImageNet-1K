@@ -29,6 +29,6 @@ def unpack(base_dir,
         
 
 if __name__ == '__main__':
-    base_dir   = '/Users/jason/Desktop/data'
-    target_dir = '/Users/jason/Desktop/data/ImageNet'
+    base_dir   = '/content/drive/MyDrive/ImageNet/dataset'
+    target_dir = '/content/drive/MyDrive/ImageNet/dataset/ImageNet'
     unpack(base_dir, target_dir)
