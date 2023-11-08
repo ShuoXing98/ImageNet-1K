@@ -8,7 +8,7 @@ def unpack(base_dir,
     
     # path
     train_dir = os.path.join(base_dir, train)
-    json_dir  = os.path.join(base_dir, class_json)
+    json_dir  = os.path.join('/media/shuoxing/WD_BLACK/shuoxing/ImageNet/ImageNet-1K/ImageNet_class_index.json', class_json)
 
     target_train_dir = os.path.join(target_dir, 'train')
 
@@ -29,6 +29,6 @@ def unpack(base_dir,
         
 
 if __name__ == '__main__':
-    base_dir   = '/content/drive/MyDrive/ImageNet/dataset'
-    target_dir = '/content/drive/MyDrive/ImageNet/dataset/ImageNet'
+    base_dir   = '/media/shuoxing/WD_BLACK/shuoxing/ImageNet'
+    target_dir = '/media/shuoxing/WD_BLACK/shuoxing/ImageNet/data'
     unpack(base_dir, target_dir)
